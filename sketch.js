@@ -14,13 +14,13 @@ function setup() {
   canvas = createCanvas(800,600);
   background(0)
 
-  var p1=createP('Frequência 1')
-  f1= createSlider(55, 880,220,1);
+  var p1=createP('Frequência 1');
+  f1 = createSlider(55, 880,220,1);
   sp1 = createSpan(+f1.value()+' Hz');
-  var p2=createP('Frequência 2')  
+  var p2=createP('Frequência 2');  
   f2= createSlider(55, 880,330,1);
   sp2 = createSpan(f2.value()+' Hz');
-  var p2=createP('Frequência 3')  
+  var p3=createP('Frequência 3');  
   f3= createSlider(55, 880,330,1);
   sp3 = createSpan(f3.value()+' Hz');
   play = createCheckbox('Tocar');
