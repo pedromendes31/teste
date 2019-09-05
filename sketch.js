@@ -7,7 +7,7 @@ var play;
 var osc1,osc2,osc3;
 var playing = false;
 var sp1,sp2,sp3;
-var k1,k2,k3.omega1,omega2,omega3,lambda1,lambda2,lambda3,phi2,phi,phi3;
+var k1,k2,k3,omega1,omega2,omega3,lambda1,lambda2,lambda3,phi2,phi,phi3;
 
 function setup() {
   
